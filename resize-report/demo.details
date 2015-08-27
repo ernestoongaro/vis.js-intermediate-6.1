@@ -3,3 +3,5 @@
  description: "Simple initialization of the library, plain text authentication and loading a report"
  resources:
    - "http://localhost:8080/jasperserver-pro/client/visualize.js"
+   - "https://code.jquery.com/jquery-2.0.2.min.js"
+   - "https://code.jquery.com/jquery-1.10.2.min.js"
