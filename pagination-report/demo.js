@@ -4,20 +4,34 @@ visualize({
         password: "jasperadmin",
         organization: "organization_1"
     }
-},function (v) {
+}, function (v) {
     var report = v.report({
         //only reports made in adhoc!
         resource: "/public/Samples/Reports/9.CustomerDetailReport",
         container: "#container",
         autoresize: false,
-        error: function(e) {
+        error: function (e) {
             alert(e);
         }
     });
-    
-    $("#container").resizable({
-        stop: function( event, ui ) {
-            report.resize();
-        }
+
+    window.previousPage = function () {
+        var currentPage = report.pages() || 1;
+
+        report.pages(--currentPage)
+            .run()
+            .fail(function (err) {
+            alert(err);
+        });
+    };
+
+window.nextPage = function () {
+    var currentPage = report.pages() || 1;
+
+    report.pages(++currentPage)
+        .run()
+        .fail(function (err) {
+        alert(err);
     });
+};
 });
