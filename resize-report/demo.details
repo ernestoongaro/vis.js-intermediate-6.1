@@ -4,4 +4,5 @@
  resources:
    - "http://localhost:8080/jasperserver-pro/client/visualize.js"
    - "https://code.jquery.com/jquery-2.0.2.min.js"
-   - "https://code.jquery.com/jquery-1.10.2.min.js"
+   - "https://code.jquery.com/ui/1.11.3/jquery-ui.js"
+   - "https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css"
