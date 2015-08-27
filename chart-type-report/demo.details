@@ -1,0 +1,6 @@
+---
+ name: "006. Changing Chart Type"
+ description: "Change chart type from outside the UI"
+ resources:
+   - "http://localhost:8080/jasperserver-pro/client/visualize.js"
+ doc: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-usage-interactive-reports#Changing_the_Chart_Type"
