@@ -1,5 +1,5 @@
 ---
- name: "005. Paginate Reports"
+ name: "004. Paginate Reports"
  description: "Paging through multi-page reports"
  resources:
    - "http://localhost:8080/jasperserver-pro/client/visualize.js"
