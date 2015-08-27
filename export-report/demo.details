@@ -1,0 +1,8 @@
+---
+ name: "002. Export Reports"
+ description: "Export a report to a given format"
+ resources:
+   - "http://localhost:8080/jasperserver-pro/client/visualize.js"
+
+
+http://jsfiddle.net/ernestoo/45gf9t0y/
