@@ -1,0 +1,6 @@
+---
+ name: "007. Filtering a Table Column"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-usage-interactive-reports#Filtering_Table_Columns"
+ description: "Example of filtering the column in an interactive table (JIVE)"
+ resources:
+   - "http://localhost:8080/jasperserver-pro/client/visualize.js"

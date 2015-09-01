@@ -1,5 +1,6 @@
 ---
  name: "005. Zooming Reports"
+ docs: "http://not.documented.in.61"
  description: "Resize a standard report by zooming it"
  resources:
    - "http://localhost:8080/jasperserver-pro/client/visualize.js"
